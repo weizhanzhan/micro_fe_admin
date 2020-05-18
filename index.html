@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="importmap-type" content="systemjs-importmap" />
+    <script type="systemjs-importmap"  src="/importmap-config.json"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/amd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/named-exports.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/named-register.js"></script> 
+    <body>
+      <script>
+        System.import('/single-spa-config.js')
+      </script>
+      <div id="single-spa-playground">
+
+      </div>
+     
+    </body>
+</html>

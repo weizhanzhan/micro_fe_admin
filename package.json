@@ -1,0 +1,18 @@
+{
+  "name": "micro-fe-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app1.js",
+  "scripts": {
+    "serve": "serve -s -l 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0"
+  },
+  "author": "zhanwei",
+  "license": "ISC",
+  "dependencies": {
+    "single-spa": "^5.5.0"
+  }
+}
