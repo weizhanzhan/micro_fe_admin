@@ -5,16 +5,22 @@
     var singleSpa = modules[0]
     console.log(singleSpa)
  
-
     singleSpa.registerApplication(
-      'base',
+      'system',
       ()=>{
-        return System.import('base')
+        return System.import('system')
       },
       location=> true
     );
-    console.log(2)
+    // singleSpa.registerApplication(
+    //   'base',
+    //   ()=>{
+    //     return System.import('base')
+    //   },
+    //   location=> true
+    // );
+   
     singleSpa.start();
-    console.log(3)
+  
   })
 })()
