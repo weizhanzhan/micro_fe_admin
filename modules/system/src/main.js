@@ -3,7 +3,8 @@ import Vue from 'vue';
 import singleSpaVue from 'single-spa-vue';
 import App from './App.vue';
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
+
 
 const vueLifecycles = singleSpaVue({
   Vue,
